@@ -1,6 +1,6 @@
 //Start
-let nombre = prompt(`Introduzca su nombre`)*1;
-let num = prompt(`Introduzca el numero de veces`);
+let nombre = prompt(`Introduzca su nombre`);
+let num = prompt(`Introduzca el numero de veces`)*1;
 
 
 //Clicle
