@@ -1,10 +1,17 @@
+// Problema #8
 
+const  numCasillas= 64;
+contador = 0;
+let sum = 0;
 
+while (contador == numTablero) {
 
-
-const numTablero = 64;
-
-for (let contador = 1,contador <= numTablero, contador++) {
-
-let casilla = contador*2;
-}
+    if (contador < 2) {
+        sum = 1;
+        contador
+    }
+    
+    sum += sum*2
+    contador ++;
+    
+ }
