@@ -1,17 +1,16 @@
 // Problema #8
 
-const  numCasillas= 64;
-contador = 0;
-let sum = 0;
-
-while (contador == numTablero) {
-
-    if (contador < 2) {
-        sum = 1;
-        contador
-    }
+function ajedrez (peso){
+    var cont=0;
+    var resultado=0;
     
-    sum += sum*2
-    contador ++;
+    while(cont<=64){
+        resultado+= 2**cont;
+        ++cont;}
+    return resultado;}
+    document.write(" total: "+ajedrez(1));
+    console.log(" total: "+ajedrez(1))
     
- }
+    
+    var g = Math.floor(Math.random(4,200));
+    document.write(" <br><br><br><br><br>total: ",g);
