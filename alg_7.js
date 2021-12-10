@@ -24,4 +24,4 @@ const fibonacci = (n) => {
 // rama de 4 y rama 3
 
 
-fibonacci(12);
+fibonacci(7);

@@ -11,11 +11,15 @@ let i = prompt(`digite un numero 9`)*1;
 let j = prompt(`digite un numero 10`)*1;
 
 
-
 let sum = a+b+c+d+e+f+g+h+i+j;
 let promedio = (a+b+c+d+e+f+g+h+i+j)/10;
 let sumCuadrados = a^2+b^2+c^2+d^2+e^2+f^2+g^2+h^2+i^2+j^2;
 
-console.log(sum, promedio, sumCuadrados);
+
+            
+        }
+
+console.log(sum);
 console.log(promedio);
 console.log(sumCuadrados);
+
