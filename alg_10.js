@@ -1,14 +1,13 @@
 let x = 0;
-let part1 = 0;
-let part2 = 0;
-
 
 function ecquad(a, b, c) {
-part2 = Math.sqrt(Math.pow(b, 2)-4*(a*c));
-x = (-(b))+(part2)/2;
-console.log(x);
-
+let part1= -b;
+let part2 = Math.pow(b, 2);
+let part3 = (part2)+(-4*(a*c));
+let part4 = (part1)+(Math.sqrt(part3));
+x = (part4)/(2*a);
+return x;
 }
 
+ecquad(2,3,4);
 
-ecquad(3,6,7);
