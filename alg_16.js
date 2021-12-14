@@ -26,6 +26,8 @@ salarioNeto = salarioBruto-retenciones2;
 }
 let retenciones =salarioBruto-salarioNeto;
 
+// Imprimir por consola
+
 console.log(salarioBruto);
 console.log(salarioNeto);
 console.log(retenciones);
