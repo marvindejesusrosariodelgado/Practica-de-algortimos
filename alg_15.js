@@ -13,11 +13,9 @@ let j = prompt(`digite un numero 10`)*1;
 
 let sum = a+b+c+d+e+f+g+h+i+j;
 let promedio = (a+b+c+d+e+f+g+h+i+j)/10;
-let sumCuadrados = a^2+b^2+c^2+d^2+e^2+f^2+g^2+h^2+i^2+j^2;
+let sumCuadrados = Math.pow(a, 2)+Math.pow(b, 2)+Math.pow(c, 2)+Math.pow(d, 2)+Math.pow(e, 2)+Math.pow(f, 2)+Math.pow(g, 2)+Math.pow(h, 2)+Math.pow(i, 2)+Math.pow(j, 2);
 
 
-            
-        }
 
 console.log(sum);
 console.log(promedio);
