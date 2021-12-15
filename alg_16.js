@@ -28,8 +28,8 @@ let retenciones =salarioBruto-salarioNeto;
 
 // Imprimir por consola
 
-console.log(salarioBruto);
-console.log(salarioNeto);
-console.log(retenciones);
+console.log('Su salario Brutos es '+salarioBruto);
+console.log('Su salario Neto es '+salarioNeto);
+console.log('Sus retenciones son '+retenciones);
 
 
