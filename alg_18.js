@@ -2,8 +2,36 @@
 
 
 function tripoTriang(a, b, c) {
-  
+  if (a == b && b == c) {
+     if (a == c) {
+      console.log(`El triangulo es Equilatero`);
+     }
+     
+  } else { 
+    if (a==b) {
+      console.log(`El triangulo es isosceles`);
+    } else {
+       if (b == c){
+         console.log(`El triangulo es isosceles`);
+          
+       } else {
+          if (a == c) {
+            console.log(`El triangulo es isosceles`);
+             
+          }
+       }
+       
+    }
+        
+     }
+     
+     console.log(`El triangulo es escaleno`);
+     
+    
+  }
 
+
+   /*
 if (a == b && b == c) {
    if (a == c) {
     console.log(`El triangulo es Equilatero`);
@@ -29,10 +57,5 @@ if (a == b && b == c) {
          
             }
          }
-
-tripoTriang(5, 6, 7);
-if (condition) {
-    
-} else {
-    
-}
+*/
+tripoTriang(6, 5, 7);
