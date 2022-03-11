@@ -3,8 +3,6 @@ let checkPermutationASCII = (st, ts) => {
 	const CHAR_ASCII = 255;
 	let chars = new Array(CHAR_ASCII);
 
-	if (st.length !== ts.length){ return false;}
-
 	for (s of st) {
 		let code = s.charCodeAt(0);
 		if (chars[code]) {
@@ -26,4 +24,4 @@ let checkPermutationASCII = (st, ts) => {
 	return true;
 };
 
-console.log(checkPermutationASCII('vcaa', 'acva'));
+console.log(checkPermutationASCII('xvcaa', 'acv'));
